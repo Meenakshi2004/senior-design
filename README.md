@@ -11,7 +11,7 @@ Our goal was to determine whether these EEG frequency patterns could serve as us
 
 ## Dataset
 
-This project uses the * <a href= "https://openneuro.org/datasets/ds004504/versions/1.0.7/metadata"> “A dataset of EEG recordings from: Alzheimer’s disease, Frontotemporal dementia and Healthy subjects” </a>* dataset from Kaggle/OpenNeuro. The dataset contains resting-state EEG recordings collected under eyes-closed conditions from subjects diagnosed with Alzheimer’s Disease (AD), Frontotemporal Dementia (FTD), and Healthy Controls (HC).
+This project uses the <a href= "https://openneuro.org/datasets/ds004504/versions/1.0.7/metadata"> “A dataset of EEG recordings from: Alzheimer’s disease, Frontotemporal dementia and Healthy subjects” </a> dataset from Kaggle/OpenNeuro. The dataset contains resting-state EEG recordings collected under eyes-closed conditions from subjects diagnosed with Alzheimer’s Disease (AD), Frontotemporal Dementia (FTD), and Healthy Controls (HC).
 
 For this project, we specifically focused on distinguishing:
 
@@ -71,20 +71,19 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
 
 ### EEG Bandpower Comparison
 
-(Add visualization here)
+<img width="1174" height="846" alt="image" src="https://github.com/user-attachments/assets/38dbdc7e-102d-41b5-acb6-11f5cdc8ff13" />
 
 ### Theta Band Boxplot
 
-(Add visualization here)
+<img width="1070" height="810" alt="image" src="https://github.com/user-attachments/assets/af326fbf-ea32-414c-bd21-60d06dd0aeaa" />
 
 ### Model Accuracy Comparison
 
-(Add visualization here)
+<img width="2454" height="904" alt="image" src="https://github.com/user-attachments/assets/9957cf86-9459-41ea-b3ed-8d15ef8867eb" />
 
 ### KNN Confusion Matrix
 
-(Add visualization here)
-
+<img width="968" height="896" alt="image" src="https://github.com/user-attachments/assets/6716d20f-58e6-4db3-9381-ab4d929318c1" />
 
 ## Limitations
 
