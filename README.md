@@ -71,19 +71,19 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
 
 ### EEG Bandpower Comparison
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/38dbdc7e-102d-41b5-acb6-11f5cdc8ff13" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/38dbdc7e-102d-41b5-acb6-11f5cdc8ff13" />
 
 ### Theta Band Boxplot
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/af326fbf-ea32-414c-bd21-60d06dd0aeaa" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/af326fbf-ea32-414c-bd21-60d06dd0aeaa" />
 
 ### Model Accuracy Comparison
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9957cf86-9459-41ea-b3ed-8d15ef8867eb" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/9957cf86-9459-41ea-b3ed-8d15ef8867eb" />
 
 ### KNN Confusion Matrix
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/6716d20f-58e6-4db3-9381-ab4d929318c1" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6716d20f-58e6-4db3-9381-ab4d929318c1" />
 
 ## Limitations
 
