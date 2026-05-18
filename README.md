@@ -11,7 +11,7 @@ Our goal was to determine whether these EEG frequency patterns could serve as us
 
 ## Dataset
 
-This project uses the *“A dataset of EEG recordings from: Alzheimer’s disease, Frontotemporal dementia and Healthy subjects”* dataset from Kaggle/OpenNeuro. The dataset contains resting-state EEG recordings collected under eyes-closed conditions from subjects diagnosed with Alzheimer’s Disease (AD), Frontotemporal Dementia (FTD), and Healthy Controls (HC).
+This project uses the * <a href= "https://openneuro.org/datasets/ds004504/versions/1.0.7/metadata"> “A dataset of EEG recordings from: Alzheimer’s disease, Frontotemporal dementia and Healthy subjects” </a>* dataset from Kaggle/OpenNeuro. The dataset contains resting-state EEG recordings collected under eyes-closed conditions from subjects diagnosed with Alzheimer’s Disease (AD), Frontotemporal Dementia (FTD), and Healthy Controls (HC).
 
 For this project, we specifically focused on distinguishing:
 
