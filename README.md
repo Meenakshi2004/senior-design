@@ -8,7 +8,6 @@ The project focuses on EEG slowing, a neurological phenomenon associated with Al
 
 Our goal was to determine whether these EEG frequency patterns could serve as useful biomarkers for distinguishing AD and HC subjects.
 
----
 
 ## Dataset
 
@@ -28,7 +27,6 @@ The EEG signals were processed to extract relative bandpower features from four 
 
 These extracted frequency-band features were then used for statistical analysis and machine learning classification.
 
----
 
 ## Methodology
 
@@ -55,7 +53,6 @@ The following classification models were evaluated:
 
 Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the small dataset size.
 
----
 
 ## Key Findings
 
@@ -69,7 +66,6 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
   * 94.4% accuracy
   * 17/18 subjects correctly classified
 
----
 
 ## Visualizations
 
@@ -89,7 +85,6 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
 
 (Add visualization here)
 
----
 
 ## Limitations
 
@@ -97,7 +92,6 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
 * Results may not generalize to larger populations
 * More complex models may require substantially more EEG data
 
----
 
 ## Future Work
 
@@ -106,15 +100,3 @@ Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the
 * Investigate additional EEG biomarkers
 * Test model generalizability across more diverse subjects
 
----
-
-## Contributors
-
-* Meenakshi Sundar Rajan
-* [Other Team Members]
-
-Future Work
-Evaluate larger EEG datasets
-Explore deep learning approaches
-Investigate additional EEG biomarkers
-Test model generalizability across more diverse subjects
