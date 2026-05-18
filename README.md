@@ -1,0 +1,75 @@
+EEG Biomarkers for Alzheimer’s Disease
+Project Overview
+
+This project explores whether EEG frequency-band features can be used to distinguish Alzheimer’s Disease (AD) subjects from Healthy Control (HC) subjects using machine learning models and statistical analysis.
+
+The project focuses on EEG slowing, a neurological phenomenon associated with Alzheimer’s disease in which low-frequency activity (delta and theta) increases while higher-frequency activity (alpha and beta) decreases.
+
+Our goal was to determine whether these EEG frequency patterns could serve as useful biomarkers for distinguishing AD and HC subjects.
+
+Dataset
+
+This project uses the “A dataset of EEG recordings from: Alzheimer’s disease, Frontotemporal dementia and Healthy subjects” dataset from Kaggle / OpenNeuro. The dataset contains resting-state EEG recordings collected under eyes-closed conditions from subjects diagnosed with Alzheimer’s Disease (AD), Frontotemporal Dementia (FTD), and Healthy Controls (HC).
+
+For this project, we focused specifically on distinguishing:
+
+Alzheimer’s Disease (AD) subjects
+Healthy Control (HC) subjects
+
+The EEG signals were processed to extract relative bandpower features from four primary EEG frequency bands:
+
+Delta (1–4 Hz)
+Theta (4–8 Hz)
+Alpha (8–13 Hz)
+Beta (13–30 Hz)
+
+These frequency bands were used as input features for statistical analysis and machine learning classification.
+
+Methodology
+Feature Extraction
+Preprocessed EEG data in Google Colab
+Computed Power Spectral Density (PSD) using Welch’s Method
+Extracted relative EEG bandpower features
+Statistical Analysis
+Compared EEG bandpower differences between AD and HC groups
+Conducted two-sample t-tests to evaluate statistical significance
+Machine Learning Models
+
+The following classification models were evaluated:
+
+K-Nearest Neighbors (KNN)
+Logistic Regression
+Support Vector Machine (SVM)
+Random Forest
+Gradient Boosting
+
+Validation was performed using Leave-One-Out Cross Validation (LOOCV) due to the small dataset size.
+
+Key Findings
+AD subjects showed increased delta and theta activity and reduced alpha and beta activity.
+Theta-band activity emerged as one of the strongest distinguishing features between AD and HC groups.
+Theta power produced a statistically significant difference:
+p = 0.0066
+KNN achieved the highest classification accuracy:
+94.4% accuracy
+17/18 subjects correctly classified 
+
+Visualizations
+
+(Add your graphs/screenshots here)
+
+Suggested visuals:
+
+EEG bandpower comparison chart
+Theta band boxplot
+Model accuracy comparison
+KNN confusion matrix
+Limitations
+Small dataset size (18 subjects)
+Results may not generalize to larger populations
+More complex models may require substantially more EEG data
+Future Work
+Evaluate larger EEG datasets
+Explore deep learning approaches
+Investigate additional EEG biomarkers
+Test model generalizability across more diverse subjects
